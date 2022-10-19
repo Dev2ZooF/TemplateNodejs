@@ -1,0 +1,9 @@
+node_modules/
+package-lock.json
+*.code-workspace
+.npmrc
+.env
+**/*.key
+**/*.csr
+**/*.cert
+**/*.log

@@ -1,0 +1,31 @@
+{
+  "name": "Dummy Node App",
+  "version": "0.0.1",
+  "description": "A placeholder for a new Node app",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "nodemon src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "node src/app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dev2ZooF/CHANGE_ME.git"
+  },
+  "keywords": [
+    "chat"
+  ],
+  "author": "Dev2ZooF <zoof1601@videoludicrous.com> (videoludicrous.com)",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/Dev2ZooF/CHANGE_ME/issues"
+  },
+  "homepage": "https://github.com/Dev2ZooF/CHANGE_ME#readme",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "helmet": "^5.1.0",
+    "morgan": "^1.10.0"
+  }
+}
